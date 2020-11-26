@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComputerShareKKopiecExcercise
+namespace ComputerShareKKopiecExercise
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace ComputerShareKKopiecExcercise
             if (args.Length == 0)
             {
                 Console.WriteLine("Usage:");
-                Console.WriteLine("ComputerShareKKopiecExcercise DataFilePath");
+                Console.WriteLine("ComputerShareKKopiecExercise DataFilePath");
                 Console.WriteLine("Press any key to finish");
                 Console.ReadKey();
                 return;

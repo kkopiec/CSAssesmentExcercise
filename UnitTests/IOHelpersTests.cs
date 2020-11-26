@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using ComputerShareKKopiecExcercise;
+using ComputerShareKKopiecExercise;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests

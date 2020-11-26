@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ComputerShareKKopiecExcercise\ComputerShareKKopiecExcercise.csproj">
+    <ProjectReference Include="..\ComputerShareKKopiecExcercise\ComputerShareKKopiecExercise.csproj">
       <Project>{6fb85e85-75b3-44e0-a543-5dce5940f437}</Project>
-      <Name>ComputerShareKKopiecExcercise</Name>
+      <Name>ComputerShareKKopiecExercise</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

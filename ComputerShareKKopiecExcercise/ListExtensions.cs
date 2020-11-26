@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComputerShareKKopiecExcercise
+namespace ComputerShareKKopiecExercise
 {
     static class ListExtensions
     {
