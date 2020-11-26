@@ -17,7 +17,7 @@ namespace ComputerShareKKopiecExcercise
             {
                 Console.WriteLine("Usage:");
                 Console.WriteLine("ComputerShareKKopiecExcercise DataFilePath");
-                Console.WriteLine("Pres any key to finish");
+                Console.WriteLine("Press any key to finish");
                 Console.ReadKey();
                 return;
             }
@@ -27,7 +27,7 @@ namespace ComputerShareKKopiecExcercise
                 rawData = IOHelpers.ReadDataFile(args[0]);
             } catch (FileNotFoundException e) {
                 Console.WriteLine(e.Message);
-                Console.WriteLine("Pres any key to finish");
+                Console.WriteLine("Press any key to finish");
                 Console.ReadKey();
                 return;
             }
@@ -39,7 +39,7 @@ namespace ComputerShareKKopiecExcercise
             {
                 Console.WriteLine("Incorrect or misformated data in " + args[0]);
                 Console.WriteLine(e.Message);
-                Console.WriteLine("Pres any key to finish");
+                Console.WriteLine("Press any key to finish");
                 Console.ReadKey();
                 return;
             }
@@ -56,7 +56,7 @@ namespace ComputerShareKKopiecExcercise
                 sell.Item2.ToString("F", CultureInfo.InvariantCulture) +
                 ")";
             Console.WriteLine(output);
-            Console.WriteLine("Pres any key to finish");
+            Console.WriteLine("Press any key to finish");
             Console.ReadKey();
         }
     }
