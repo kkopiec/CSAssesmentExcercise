@@ -57,7 +57,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ComputerShareKKopiecExcercise\ComputerShareKKopiecExercise.csproj">
+    <ProjectReference Include="..\ComputerShareKKopiecExercise\ComputerShareKKopiecExercise.csproj">
       <Project>{6fb85e85-75b3-44e0-a543-5dce5940f437}</Project>
       <Name>ComputerShareKKopiecExercise</Name>
     </ProjectReference>
